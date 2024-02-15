@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <body>
+            <div class="calculate">
+                <h1>Calculate Sum of three marks and where student is passed or failed</h1>
+                <form action "{{ url_for('calculate')}}" method="post">
+                    <input type="text" name="maths" placeholder="Maths" required="required" />
+                    <input type="text" name="science" placeholder="Science" required="required" />
+                    <input type="text" name="history" placeholder="History" required="required" />
+                    <button type="submit"  class="btn btn-primary">Calculate</button>  
+                </form>
+
+            </div>
+        </body>
+    </head>
+</html>
